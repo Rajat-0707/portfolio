@@ -9,11 +9,11 @@ return (
           
                 <div className="p-cards">
                     <div className="image-project">
-                        <img src={props.image} alt="Project" />
+                        <img className='project-image'  src={props.image} alt="Project" />
                     </div>
                     <div className="detail">
-                        <h3>{props.title}</h3>
-                        <p>{props.description}</p>
+                        <h3  className='project-title'>{props.title}</h3>
+                        <p className='project-description'>{props.description}</p>
                         <a href={props.link}>View Project site</a> 
                     </div>
                 </div>
