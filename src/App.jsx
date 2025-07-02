@@ -52,9 +52,9 @@ function App() {
           <div className="box1">
                 <h1 className='hh'>Featured Projects</h1>
             </div>
-       <Projects image="https://via.placeholder.com/150" title="Project 1" description="Description for project 1" link="#" />
-       <Projects image="https://via.placeholder.com/150" title="Project 2" description="Description for project 2" link="#" />
-       <Projects image="https://via.placeholder.com/150" title="Project 3" description="Description for project 3" link="#" />
+       <Projects image="port-icon.jpg" title="My Portfolio" description="A showcase of my work , skills and projects. using react and css" link="https://portfolio-iota-swart-42.vercel.app/" />
+       <Projects image="https://via.placeholder.com/150" title="odd even game" description="A simple game built with react to guess if the sum of number guessed by both the player and the computer is odd or even." link="#" />
+       <Projects image="https://via.placeholder.com/150" title="Task manager" description="A task management website built with react , redux and css. to store tasks on local storage and manage them effectively." link="#" />
        </Element>
 
      </div>
