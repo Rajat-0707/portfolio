@@ -1,0 +1,91 @@
+
+.nav{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 60px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+    background: transparent;
+      position: relative;
+      z-index: 100;
+}
+.container67{
+    /* background: linear-gradient(90deg, #36d1c4, #5b86e5); */
+    /* background: linear-gradient(to right, rgb(48, 67, 82), rgb(215, 210, 204)); */
+    background-color: rgb(96, 94, 121);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    position:fixed;
+}
+.linn{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    background: transparent;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.blank{
+    flex-grow: 1;
+    width: 50px;
+    background : transparent;
+
+}
+.nav-links {
+    display: flex;
+    background: transparent;
+    align-items: center;
+}
+
+.linn:hover {
+    background: transparent;
+    color: #d01313;
+    background: linear-gradient(90deg, #e61616, #cfeb14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: underline;}
+
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+   /* .hr{
+  border: none;
+  height: 5px;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+} */
+
+/* .main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    position:relative;
+    background: transparent;
+} */
+
+.home,.skills,.projects,.contact,.resume{
+    background: transparent;
+    
+}
+
+    

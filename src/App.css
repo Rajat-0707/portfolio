@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+  color: #333;
+} */
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+  padding: 190px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+   /* .hr{
+  border: none;
+  height: 50px;
+  background: linear-gradient(to right, rgb(48, 67, 82), rgb(215, 210, 204));
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+} */
+
+/* img{
+  background: transparent;
+  background-color: transparent;
+} */
+.box1{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    background: linear-gradient(to right, rgb(48, 67, 82), rgb(215, 210, 204));
+    color: white;
+}
+.hh{
+  background-color: transparent;
+  background: transparent;
+}
+
+.myski{
+  color: rgb(170, 255, 0);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
