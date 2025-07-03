@@ -15,6 +15,11 @@
       position: relative;
       z-index: 100;
 }
+
+
+link{
+    cursor: pointer;
+}
 .container67{
     /* background: linear-gradient(90deg, #36d1c4, #5b86e5); */
     /* background: linear-gradient(to right, rgb(48, 67, 82), rgb(215, 210, 204)); */
