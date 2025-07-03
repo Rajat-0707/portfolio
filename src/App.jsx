@@ -61,7 +61,10 @@ function App() {
 
      </div>
       <Hr />
+
+    <Element name="resume" >
      <Resume />
+    </Element>
     </>
   
   )
