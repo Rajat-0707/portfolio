@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div className="box2">
 
-            <img src="oip.jpg" alt="profile pic" />
+            <img src="OIP.jpg" alt="profile pic" />
         </div>
 
     </div>
