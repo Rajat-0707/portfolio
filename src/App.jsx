@@ -45,6 +45,11 @@ function App() {
       <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
       <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
       <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+      
+      <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+      <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+      <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+      <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /> 
       </div>
       </Element>
       
@@ -55,7 +60,7 @@ function App() {
             </div>
      
        <Projects image="o-e-g.jpg" title="odd even game" description="A simple game built with react to guess if the sum of number guessed by both the player and the computer is odd or even." link="https://project1-chi-eight.vercel.app/" />
-       <Projects image="task-icon.jpg" title="Task manager" description="A task management website built with react , redux and css. to store tasks on local storage and manage them effectively." link="#" />
+       <Projects image="https://via.placeholder.com/150" title="Task manager" description="A task management website built with react , redux and css. to store tasks on local storage and manage them effectively." link="#" />
          <Projects image="port-icon.jpg" title="My Portfolio" description="A showcase of my work , skills and projects. using react and css" link="https://portfolio-iota-swart-42.vercel.app/" />
        </Element>
 
