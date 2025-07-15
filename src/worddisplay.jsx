@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 
 const WordDisplay = () => {
-  const words = ['WEB-DEVELOPER', 'PROGRAMMER', 'DESIGNER', 'CODING ENTHUSIAST', 'TECHNOLOGY LOVER'];
+  const words = ['WEB-DEVELOPER', 'PROGRAMMER', 'WEB-DESIGNER', 'CODING ENTHUSIAST', 'TECHNOLOGY LOVER','MERN STACK DEVELOPER', 'FRONTEND DEVELOPER', 'BACKEND DEVELOPER', 'FULL STACK DEVELOPER', 'SOFTWARE ENGINEER'];
   const [index, setIndex] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
   const [letterIndex, setLetterIndex] = useState(0);
