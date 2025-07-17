@@ -1,4 +1,10 @@
 body {
+    zoom: 0.8;
+}
+
+
+
+body {
     background: linear-gradient(120deg, #232526 0%, #485563 100%);
     font-family: 'Times New Roman', Times, serif;
     min-height: 100vh;
@@ -13,7 +19,7 @@ body {
 .container2 {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 30px;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     animation: slideUp 1s cubic-bezier(.68,-0.55,.27,1.55);
     transition: box-shadow 0.4s;
 }
@@ -26,12 +32,12 @@ body {
 .head {
     background: linear-gradient(90deg, #36d1c4 0%, #5b86e5 100%);
     color: #fff;
-    padding: 12px 32px;
-    border-radius: 16px;
+    /* padding: 12px 32px; */
+    /* border-radius: 16px; */
     box-shadow: 0 4px 16px rgba(54, 209, 196, 0.2);
     letter-spacing: 2px;
     transition: transform 0.3s, box-shadow 0.3s;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
     text-align: center;
     animation: popIn 0.8s cubic-bezier(.68,-0.55,.27,1.55);
 }
@@ -50,8 +56,8 @@ body {
     background: rgba(255,255,255,0.08);
     color: #f8f8f8;
     /* border-left: 4px solid #36d1c4; */
-    padding: 18px 24px;
-    border-radius: 12px;
+    /* padding: 18px 24px; */
+    /* border-radius: 12px; */
     box-shadow: 0 2px 8px rgba(54, 209, 196, 0.08);
     transition: background 0.3s, border-color 0.3s;
     animation: fadeInDesc 1.2s;
@@ -176,7 +182,7 @@ background: linear-gradient(to right, rgb(48, 67, 82), rgb(215, 210, 204));
 }
 .head{
     margin-left: 0px;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
      color: white;
      background: transparent;
@@ -184,7 +190,7 @@ background: linear-gradient(to right, rgb(48, 67, 82), rgb(215, 210, 204));
 
 
 .description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: 400;
     line-height: 1.6;
