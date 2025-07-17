@@ -14,7 +14,7 @@ return (
                     <div className="detail">
                         <h3  className='project-title'>{props.title}</h3>
                         <p className='project-description'>{props.description}</p>
-                        <a href={props.link} target='_blank'>View Project site</a> 
+                        <a className='project-link' href={props.link} target='_blank'>View Project site</a>
                     </div>
                 </div>
           
